@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watchlist - Privacy Policy</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-color: #38bdf8;
+            --accent-hover: #0284c7;
+            --border-color: #334155;
+            --code-bg: #0f172a;
+        }
+
+        @media (prefers-color-scheme: light) {
+            :root {
+                --bg-color: #f8fafc;
+                --card-bg: #ffffff;
+                --text-primary: #0f172a;
+                --text-secondary: #475569;
+                --accent-color: #0284c7;
+                --accent-hover: #0369a1;
+                --border-color: #e2e8f0;
+                --code-bg: #f1f5f9;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 2rem 1rem;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: var(--card-bg);
+            padding: 2.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border-color);
+        }
+
+        header {
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            color: var(--text-primary);
+        }
+
+        .meta {
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            display: grid;
+            gap: 0.25rem;
+        }
+
+        .meta-item {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .meta-label {
+            font-weight: 600;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 0.75rem;
+            color: var(--text-primary);
+        }
+
+        p {
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            color: var(--text-secondary);
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .notice-box {
+            background-color: var(--code-bg);
+            border-left: 4px solid var(--accent-color);
+            padding: 1rem;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+        }
+
+        footer {
+            margin-top: 3rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem 0.5rem;
+            }
+            .container {
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 1.75rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Privacy Policy – Watchlist</h1>
+            <div class="meta">
+                <div class="meta-item">
+                    <span class="meta-label">Last updated:</span>
+                    <span>October 2, 2026</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Developer / Data Controller:</span>
+                    <span>Rubber Triangle</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Contact:</span>
+                    <a href="mailto:rubberrtriangle@gmail.com">rubberrtriangle@gmail.com</a>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="notice-box">
+                This privacy policy describes how <strong>Watchlist</strong> works in version 1.0.0. The developer does not run servers, collect personal data, or sell user information.
+            </div>
+
+            <section>
+                <h2>1. Summary</h2>
+                <p>Watchlist is a tracker for movies and TV series. It has no user accounts, no ads, no analytics, no crash-reporting service, and no tracking. The developer does not run any server for the app and does not receive your library, your searches, or any other personal data. Your library and settings stay on your device. To find titles and show posters, the app connects directly from your device to TMDB (The Movie Database).</p>
+            </section>
+
+            <section>
+                <h2>2. Data Stored on Your Device</h2>
+                <p>Watchlist stores the following locally, in the app's private storage:</p>
+                <ul>
+                    <li><strong>Your library:</strong> the movies and series you add (identified by their TMDB ID), whether you marked them as watched, which episodes you marked as watched, when you added them, and the packs (saga collections) you create, with their names and order.</li>
+                    <li><strong>Downloaded information:</strong> information from TMDB about those titles (titles, synopses, runtimes, episode lists, poster paths).</li>
+                    <li><strong>Your settings:</strong> theme, default sort order, whether completed content is shown, and the date of the last data refresh.</li>
+                    <li><strong>Image cache:</strong> posters and photos downloaded from TMDB, which you can clear from <em>Settings → Clear image cache</em>.</li>
+                </ul>
+                <p>This data is not sent to the developer. You can delete all of it by clearing the app's storage in Android settings or by uninstalling the app.</p>
+            </section>
+
+            <section>
+                <h2>3. Data Sent to TMDB</h2>
+                <p>When you search or open a title, the app sends requests over HTTPS to TMDB's servers (<code>api.themoviedb.org</code> and, for images, <code>image.tmdb.org</code>). These requests contain:</p>
+                <ul>
+                    <li>The text you type in the search box;</li>
+                    <li>The TMDB identifiers of the titles or collections you open or add;</li>
+                    <li>Your device's language and region code (for example <code>en-US</code>), so that results come in your language;</li>
+                    <li>The application's API key, which identifies Watchlist (not you) to TMDB.</li>
+                </ul>
+                <p>As with any internet request, TMDB's servers also receive your IP address and standard technical information (such as the app's user-agent). TMDB processes this information under its own terms and privacy policy, available at <a href="https://www.themoviedb.org/privacy-policy" target="_blank" rel="noopener noreferrer">https://www.themoviedb.org/privacy-policy</a>. Watchlist does not send TMDB your library, your watched status, or any identifier of you or your device.</p>
+            </section>
+
+            <section>
+                <h2>4. Import and Export</h2>
+                <p><code>Settings → Export library</code> creates a JSON file in a location you choose using Android's system file picker. The file contains TMDB IDs, watched status, and your pack names/descriptions. <code>Import library</code> reads a file you select. Watchlist does not upload these files anywhere; you are responsible for where you store or share them.</p>
+            </section>
+
+            <section>
+                <h2>5. Android Backup</h2>
+                <p>If automatic backup is enabled on your device, Android (Google) may copy Watchlist's library and settings to your Google account backup, and restore them when you set up a new device. This is handled by Google under its own privacy policy; Watchlist's developer has no access to it. You can turn this off in your device's Google backup settings.</p>
+            </section>
+
+            <section>
+                <h2>6. Permissions</h2>
+                <p>Watchlist requests only the permissions needed to work online: access to the internet and to the network state. It does not request access to your location, contacts, camera, microphone, photos, files, or any account.</p>
+            </section>
+
+            <section>
+                <h2>7. Third Parties</h2>
+                <ul>
+                    <li><strong>TMDB:</strong> Source of all movie and TV data and images (see section 3).</li>
+                    <li><strong>Google:</strong> Google Play distribution and Android backup (see section 5).</li>
+                </ul>
+                <p>Watchlist includes no advertising, analytics, or crash-reporting SDKs.</p>
+                <p><em>This product uses the TMDB API but is not endorsed or certified by TMDB.</em></p>
+            </section>
+
+            <section>
+                <h2>8. Children</h2>
+                <p>Watchlist is not directed at children under 13 or 16 years of age and does not knowingly collect personal data from anyone.</p>
+            </section>
+
+            <section>
+                <h2>9. Your Rights</h2>
+                <p>Because the developer does not collect or hold your personal data, there is nothing for the developer to access, correct, or delete on the server side; you control the data on your device (section 2). If you are in the EU/EEA/UK you have rights of access, rectification, erasure, restriction, portability, and objection, and the right to complain to your data-protection authority; for data processed by TMDB, please contact TMDB. For any question about this policy, write to <a href="mailto:rubberrtriangle@gmail.com">rubberrtriangle@gmail.com</a>.</p>
+            </section>
+
+            <section>
+                <h2>10. Changes</h2>
+                <p>If this policy changes, the new version will be published at this address with an updated date, and the app will be updated accordingly.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Rubber Triangle. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
